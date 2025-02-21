@@ -14,7 +14,7 @@ enum OperationType {
             case PLUS: return x + y;
             case MINUS: return x - y;
             case TIMES: return x * y;
-            case DIVIDE: return y != 0 ? x / y : Double.NaN; // Prevent division by zero
+            case DIVIDE: return y != 0 ? x / y : Double.NaN; 
             default: throw new IllegalArgumentException("Invalid Operation");
         }
     }
